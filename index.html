@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GrowNest Telecom</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f8f9fa; color: #333; }
-    header { background: #1a73e8; color: white; padding: 20px; text-align: center; }
-    nav { background: #0c4aad; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    section { padding: 40px; max-width: 800px; margin: auto; }
-    footer { background: #333; color: white; text-align: center; padding: 15px; margin-top: 40px; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GrowNest BPO</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>GrowNest Telecom</h1>
-    <p>Connecting People. Growing Together.</p>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-600">GrowNest BPO</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-green-600">About</a>
+        <a href="#services" class="hover:text-green-600">Services</a>
+        <a href="#contact" class="hover:text-green-600">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <a href="#about">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>GrowNest Telecom is dedicated to providing reliable telecom and BPO services. 
-    Our mission is to deliver high-quality communication solutions that help businesses 
-    and individuals stay connected anytime, anywhere.</p>
+  <!-- Hero -->
+  <section class="bg-green-600 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Smart Outsourcing. Real Growth.</h2>
+    <p class="text-lg mb-6">GrowNest BPO helps businesses scale with cost-effective, reliable outsourcing solutions.</p>
+    <a href="#contact" class="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Get in Touch</a>
   </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>VoIP Solutions</li>
-      <li>Call Center Outsourcing</li>
-      <li>Final Expense Lead Generation</li>
-      <li>Telecom Infrastructure Support</li>
-    </ul>
+  <!-- About -->
+  <section id="about" class="max-w-5xl mx-auto py-16 px-6">
+    <h3 class="text-3xl font-bold mb-4">About Us</h3>
+    <p class="text-lg leading-relaxed">
+      At GrowNest BPO, we specialize in delivering tailored business process outsourcing services 
+      that save costs, increase efficiency, and let you focus on growth. Our team combines expertise, 
+      technology, and dedication to deliver measurable results for our clients worldwide.
+    </p>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: info@grownesttelecom.com</p>
-    <p>Phone: +92-XXX-XXXXXXX</p>
+  <!-- Services -->
+  <section id="services" class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2 text-green-600">Customer Support</h4>
+          <p>24/7 inbound & outbound call handling with a professional team trained to represent your brand.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2 text-green-600">Lead Generation</h4>
+          <p>Performance-driven lead generation strategies designed to maximize conversions and ROI.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2 text-green-600">Back Office</h4>
+          <p>Efficient data entry, billing, and admin solutions that free your time for strategic growth.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2025 GrowNest Telecom. All Rights Reserved.</p>
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-4">Contact Us</h3>
+    <p class="mb-6">Let’s discuss how GrowNest BPO can help your business scale efficiently.</p>
+    <a href="mailto:info@grownestbpo.com" class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700">Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 GrowNest BPO. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
