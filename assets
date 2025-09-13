@@ -1,1 +1,13 @@
+/* assets/css/style.css */
+:root{
+  --primary:#0b6cff;
+  --muted:#6b7280;
+}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+a{color:var(--primary);}
+header.bg-primary{background:linear-gradient(90deg,#0b6cff 0%, #0f74ff 100%);}
+.navbar-brand{font-size:1.25rem;}
+.lead{color:var(--muted);}
+.card-title{color:var(--primary);}
+footer{background:#f8f9fb;}
 
